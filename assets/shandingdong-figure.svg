@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">山顶洞人动漫形象插画</title>
+  <desc id="desc">披着兽皮、佩戴兽牙项链、手持骨针的山顶洞人少年形象。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2f1e6"/>
+      <stop offset=".55" stop-color="#a9d2bf"/>
+      <stop offset="1" stop-color="#5b9d8b"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7cfa7"/>
+      <stop offset="1" stop-color="#d99a68"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b47448"/>
+      <stop offset="1" stop-color="#754329"/>
+    </linearGradient>
+    <linearGradient id="furLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d59a68"/>
+      <stop offset="1" stop-color="#a9683f"/>
+    </linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.8" fill="#163d38" opacity=".14"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="7" flood-color="#173b35" flood-opacity=".25"/>
+    </filter>
+  </defs>
+
+  <rect width="420" height="420" rx="30" fill="url(#bg)"/>
+  <rect width="420" height="420" rx="30" fill="url(#dots)"/>
+  <g fill="none" stroke="#1d5148" stroke-width="3" stroke-linecap="round" opacity=".28">
+    <path d="M28 86 q16 -12 32 0 q16 12 32 0"/>
+    <path d="M330 62 q14 -10 28 0 q14 10 28 0"/>
+    <path d="M48 326 C92 294 132 298 160 326"/>
+    <path d="M270 310 C310 282 352 286 386 316"/>
+    <path d="M90 352 q14 -9 28 0"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <!-- fur cloak -->
+    <path d="M104 382 C92 328 112 272 158 246 C186 230 232 230 262 248 C306 274 326 328 314 382 Z" fill="url(#fur)" stroke="#263a30" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M120 376 C112 330 128 288 164 264 C190 247 230 247 256 264 C292 289 306 330 298 376 Z" fill="url(#furLight)" opacity=".85"/>
+    <!-- fur edge tufts -->
+    <g fill="none" stroke="#4d2d1e" stroke-width="6" stroke-linecap="round">
+      <path d="M120 330 l-16 -9 M116 352 l-17 -5 M124 306 l-14 -13"/>
+      <path d="M296 330 l16 -9 M300 352 l17 -5 M292 306 l14 -13"/>
+    </g>
+    <!-- neck -->
+    <path d="M190 254 L190 282 C190 294 206 300 210 300 C214 300 230 294 230 282 L230 254 Z" fill="#c98558" stroke="#4b3222" stroke-width="5"/>
+    <!-- head -->
+    <path d="M154 196 C154 150 180 124 210 124 C240 124 266 150 266 196 C266 226 252 248 230 258 C220 263 200 263 190 258 C168 248 154 226 154 196 Z" fill="url(#skin)" stroke="#3c2b1e" stroke-width="7"/>
+    <!-- ears -->
+    <ellipse cx="153" cy="204" rx="12" ry="17" fill="#e7ae7d" stroke="#3c2b1e" stroke-width="5"/>
+    <ellipse cx="267" cy="204" rx="12" ry="17" fill="#e7ae7d" stroke="#3c2b1e" stroke-width="5"/>
+    <!-- hair bob -->
+    <path d="M151 198 C146 152 176 116 211 116 C246 116 272 148 269 198 C264 184 254 174 242 170 C224 164 200 166 180 176 C166 183 157 190 151 198 Z" fill="#241a14" stroke="#3c2b1e" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M163 176 C172 154 192 142 214 142 C236 142 254 154 259 176 C246 164 231 158 214 160 C194 162 178 166 163 176 Z" fill="#38271d"/>
+    <!-- fringe strands -->
+    <path d="M170 166 C180 154 196 149 211 151 M214 148 C230 148 243 157 250 170" fill="none" stroke="#4a3223" stroke-width="4" stroke-linecap="round"/>
+    <path d="M162 180 C158 168 160 158 166 150 M258 180 C262 168 260 158 254 150" fill="none" stroke="#241a14" stroke-width="6" stroke-linecap="round"/>
+    <path d="M171 158 C168 151 169 145 173 139 M250 158 C253 151 252 145 248 139" fill="none" stroke="#3b2a1f" stroke-width="4" stroke-linecap="round"/>
+    <!-- eyebrows -->
+    <path d="M176 198 C184 193 196 193 204 198 M218 198 C226 193 238 193 246 198" fill="none" stroke="#4a2f1e" stroke-width="5" stroke-linecap="round"/>
+    <!-- eyes -->
+    <ellipse cx="190" cy="213" rx="12" ry="14" fill="#fff8e7" stroke="#3c2b1e" stroke-width="4"/>
+    <ellipse cx="232" cy="213" rx="12" ry="14" fill="#fff8e7" stroke="#3c2b1e" stroke-width="4"/>
+    <circle cx="191" cy="215" r="6" fill="#22352f"/><circle cx="233" cy="215" r="6" fill="#22352f"/>
+    <circle cx="193" cy="212" r="2.2" fill="#fffdf4"/><circle cx="235" cy="212" r="2.2" fill="#fffdf4"/>
+    <!-- nose -->
+    <path d="M207 228 C210 233 214 234 217 231" fill="none" stroke="#a36243" stroke-width="4" stroke-linecap="round"/>
+    <!-- cheeks -->
+    <ellipse cx="173" cy="235" rx="11" ry="6" fill="#e8836a" opacity=".35"/>
+    <ellipse cx="249" cy="235" rx="11" ry="6" fill="#e8836a" opacity=".35"/>
+    <!-- smile -->
+    <path d="M198 244 C205 251 217 251 224 244" fill="none" stroke="#7b3d2f" stroke-width="5" stroke-linecap="round"/>
+    <!-- fur collar -->
+    <path d="M166 272 C180 286 240 286 254 272 C264 286 266 300 258 312 C244 326 176 326 162 312 C154 300 156 286 166 272 Z" fill="#8b5434" stroke="#3c2b1e" stroke-width="5" stroke-linejoin="round"/>
+    <g fill="none" stroke="#5a3421" stroke-width="4" stroke-linecap="round">
+      <path d="M174 282 l-5 16 M190 288 l-2 17 M208 291 l1 17 M226 289 l4 16 M242 283 l6 15"/>
+    </g>
+    <!-- necklace cord -->
+    <path d="M175 274 C190 292 232 292 247 274" fill="none" stroke="#4d3222" stroke-width="4"/>
+    <!-- small teeth necklace -->
+    <g fill="#f7e8c8" stroke="#5a4127" stroke-width="2.2">
+      <path d="M185 283 l4 8 l5 -8 Z"/>
+      <path d="M198 288 l4 9 l5 -9 Z"/>
+      <path d="M212 290 l4 9 l5 -9 Z"/>
+      <path d="M226 288 l4 8 l5 -8 Z"/>
+      <path d="M238 283 l4 8 l5 -8 Z"/>
+    </g>
+    <circle cx="211" cy="302" r="5" fill="#f2c46d" stroke="#5a4127" stroke-width="2"/>
+    <!-- arms -->
+    <path d="M132 304 C116 326 114 352 122 372" fill="none" stroke="#754329" stroke-width="26" stroke-linecap="round"/>
+    <path d="M288 306 C304 328 306 354 298 372" fill="none" stroke="#754329" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="122" cy="372" r="13" fill="#d99a68" stroke="#3c2b1e" stroke-width="5"/>
+    <circle cx="298" cy="372" r="13" fill="#d99a68" stroke="#3c2b1e" stroke-width="5"/>
+    <!-- bone needle in right hand -->
+    <g transform="rotate(-38 298 360)">
+      <rect x="284" y="346" width="38" height="9" rx="4.5" fill="#f4e4bd" stroke="#3c2b1e" stroke-width="3.5"/>
+      <path d="M322 350 L333 350" stroke="#3c2b1e" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="330" cy="350" r="2.6" fill="#f4e4bd" stroke="#3c2b1e" stroke-width="1.8"/>
+    </g>
+  </g>
+</svg>
